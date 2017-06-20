@@ -1,0 +1,102 @@
+body {
+	background-image: url("../images/arizona1.jpg");
+	margin-top: 20px;
+}
+
+h1{
+	background-color: purple;
+	color: white;
+	display:inline;
+	clear: both;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: solid 1px #ddd;
+}
+
+#wrapper {
+	width: 100%
+	max-width:960px;
+	margin: 0 auto;
+}
+
+#instructions {
+	opacity: 1.0;
+	color: #FF4136;
+	background-color: #85144b; 
+	width: 50%;
+	clear:both;
+	padding: 15px;
+	margin-top: 20px;
+	border: solid 1px #ddd
+}
+
+#numGuess {
+	color: #85144b;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-right: 200px;
+	padding-bottom: 60px;
+	background-color: #FF4136;
+	float: left;
+	display: inline-block;
+
+	margin-right: 5px;
+	margin-top: 20px;
+	margin-bottom: 0px;
+	border: solid 1px #ddd
+}
+
+#tally {
+	color: #FF4136;
+	padding-bottom: 30px;
+	background-color: #39CCCC;
+	display: inline-block;
+	padding: 15px 20px 10px 15px;
+	margin-top: 20px;
+	margin-left: 20px;
+	border: solid 1px #ddd
+
+}
+
+#crystals {
+	margin-top: 15px;
+	margin-bottom:26px;
+
+}
+
+.crystalImage {
+	height: 111px;
+	border: solid 1px #272525;
+	margin-left: 10px
+}
+
+.crystalImage:firstchild {
+	margin-left: 0px;
+
+}
+
+#totalScore {
+	margin-bottom: 50px;
+}
+
+#ts {
+	color: #85144b;
+	background: #3D9970;
+	display: inline;
+	padding: 20px;
+	border: solid 1px #ddd;
+}
+
+#yourScore {
+	color: #85144b;
+	background: #3D9970;
+	display: inline;
+	border: solid 1px #ddd;
+
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-right: 210px;
+	padding-left: 20px;
+
+	margin-bottom: 50px;
+}
